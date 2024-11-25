@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfilio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-    <div id="header">
-        <div class="container">
+    <!-- <div id="container">
+        <div class="header">
             <nav>
                 <ul>
                     <li><a href="">Home</a></li>
@@ -19,7 +21,58 @@
                 </ul>
             </nav>
         </div>
-    </div>
+        <div class="about">
+            <h1 class="sub-title">About me</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit minus doloremque tenetur quia nobis magni?<br>
+                Eveniet, mollitia, aliquid facilis ipsum praesentium ex tenetur necessitatibus repellat tempora rem laborum<br>
+                excepturi nulla.Consectetur nam corrupti tempora unde amet. Odio nulla reprehenderit beatae molestiae <br>
+                ut quisquam vero natus illum corrupti! Dicta iste totam dolore iusto, et officia maxime molestias quam dolores rem perspiciatis.
+                Laboriosam libero tenetur omnis repellat nobis accusantium! Ad velit vitae facere libero magni, consequuntur, odio, alias numquam deleniti consectetur quasi similique! Eaque magnam quos alias dicta! Molestiae ea porro deserunt?
+                Esse suscipit vero inventore unde distinctio vitae fuga sunt deserunt, eveniet fugit accusamus amet, quia minima rerum omnis tempora ad doloremque, quae cumque quam veniam! Vitae suscipit porro inventore similique?
+                Corporis, recusandae voluptatibus ad dolorum enim dolorem sed placeat numquam provident ratione adipisci at aut nobis tempore minima eveniet, expedita itaque consequuntur. Rerum ut accusamus possimus dolorem sunt? Iure, excepturi!</p>
+        </div>
+    </div> -->
+
+    <header class="header">
+        <div data-aos="fade-right">
+            <a href="#" class="logo">Portfolio</a>
+        </div>
+
+        <div data-aos="fade-up">
+            <nav class="navbar">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Skills</a>
+                <a href="#">Portfolio</a>
+                <a href="#">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Helindu Diniwara</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam consequuntur quasi, sit exercitationem doloribus dolorum.</p>
+            <div class="social-media">
+                <a href="#"><i class="bi bi-whatsapp"></i></a>
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+                <a href="#"><i class="bi bi-github"></i></a>
+                <a href="#"><i class="bi bi-facebook"></i></a>
+            </div>
+            <a href="#" class="btn d-inline-block">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="" alt="">
+        </div>
+    </section>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="app.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
